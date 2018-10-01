@@ -21,4 +21,20 @@ class sender extends Controller
     echo $output;
     curl_close($ch);
   }
+  function renderform(){
+    $rendered = '
+      <p id="Headerword">
+        Word :
+      </p >
+      <p id="word">
+
+      </p >
+      <p id="headerdefiniton">
+        Hint :
+      </p >
+      <p id="definiton">
+
+      </p>';
+    echo $rendered;
+  }
 }

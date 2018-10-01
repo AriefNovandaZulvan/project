@@ -18,3 +18,4 @@ Route::get('/view', function () {
     return view('Welcome');
 });
 Route::get('php/send', 'sender@send');
+Route::get('php/renderform', 'sender@renderform');
