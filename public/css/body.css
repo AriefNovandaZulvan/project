@@ -1,0 +1,37 @@
+body{
+  width: 100%;
+  margin: 0px;
+}
+.bodyofcontent{
+  background-repeat: no-repeat;
+  min-height: 600px;
+  padding-top: 50px;
+}
+.bodyoftablemain{
+  margin-top: 10px;
+  margin-left: 24%;
+  margin-right: 24%;
+  height: 300px;
+  width: 49%;
+  border-radius: 20px;
+  background: #1b6767;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  text-align: center;
+  color: #feffa6;
+  font-family: cursive;
+  padding:10px;
+
+}
+.headerofgamer{
+  text-align: center;
+  color: #feffa6;
+  font-family: cursive;
+}
+.bodyofheader{
+  background: #1b6767;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  width: 20%;
+  height: 100px;
+  margin-left: 3%;
+}
